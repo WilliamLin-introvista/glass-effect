@@ -16,13 +16,23 @@ export default function Model() {
     <group scale={viewport.width / 3.75}>
       <Text
         font={"/glass-effect/fonts/PPNeueMontreal-Bold.otf"}
-        position={[0, 0, -1]}
+        position={[-1.1, 0, -1]}
         fontSize={1}
-        color="white"
+        color="#ee6a23"
         anchorX="center"
         anchorY="middle"
       >
-        Introvista
+        Intro
+      </Text>
+      <Text
+        font={"/glass-effect/fonts/PPNeueMontreal-Bold.otf"}
+        position={[1.1, 0, -1]}
+        fontSize={1}
+        color="#23328f"
+        anchorX="center"
+        anchorY="middle"
+      >
+        Vista
       </Text>
       <mesh ref={torus} {...nodes.Torus002}>
         <MeshTransmissionMaterial
